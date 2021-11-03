@@ -1,0 +1,148 @@
+.aboutPageArea {
+  padding: 104px 0;
+}
+
+.aboutPageImg {
+  height: 600px;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+@media (max-width: 767px) {
+  .aboutPageImg {
+    height: 400px;
+    padding: 30px;
+  }
+}
+
+.aboutPageImg h2 {
+  font-size: 100px;
+  color: #fff;
+  line-height: 100px;
+}
+
+.aboutPageImg span {
+  display: block;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+.aboutPageImg.overlay::before {
+  background: #6a0387;
+  opacity: .8;
+}
+
+.aboutPageContent {
+  padding-left: 30px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 991px) {
+  .aboutPageContent {
+    padding-left: 0;
+  }
+}
+
+.aboutPageContent h2 {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .aboutPageContent h2 {
+    font-size: 50px;
+    line-height: 60px;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutPageContent h2 {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+.aboutPageContent h3 {
+  position: absolute;
+  left: 30px;
+  top: 0;
+  z-index: -1;
+  font-size: 215px;
+  -webkit-text-stroke: 1px rgba(5, 116, 255, 0.05);
+  color: transparent;
+}
+
+@media (max-width: 1300px) {
+  .aboutPageContent h3 {
+    font-size: 180px;
+  }
+}
+
+@media (max-width: 767px) {
+  .aboutPageContent h3 {
+    display: none;
+  }
+}
+
+.aboutPageContent strong {
+  font-size: 25px;
+  display: block;
+  line-height: 36px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 767px) {
+  .aboutPageContent strong {
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.aboutPageContent p {
+  margin-bottom: 30px;
+}
+
+.aboutPageContent ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+@media (max-width: 767px) {
+  .aboutPageContent ul li {
+    margin-right: 10px;
+  }
+}
+
+.aboutPageContent ul li:last-child {
+  margin-right: 0;
+}
+
+.aboutPageContent ul li .videoBtn {
+  border: 1px solid #b4bfc9;
+  height: 60px;
+  width: 60px;
+  border-radius: 0px;
+  color: #0d2335;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.aboutPageContent ul li .videoBtn:hover {
+  border-color: #6a0387;
+  background: #6a0387;
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

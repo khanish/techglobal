@@ -1,0 +1,84 @@
+.businessServiceArea {
+  padding: 104px 0 0;
+  margin-bottom: -200px;
+}
+
+.businessServiceSliderArea {
+  padding: 0px 20px;
+}
+
+@media (max-width: 1300px) {
+  .businessServiceSliderArea {
+    padding: 0;
+  }
+}
+
+.businessServiceSliderArea .slick-slide div:focus {
+  outline: none;
+}
+
+.businessServiceWrap {
+  padding: 0px 16px;
+}
+
+.businessServiceWrap .businessServiceItem {
+  background: #fff;
+  border: 4px solid #f4f9ff;
+  padding: 50px;
+  min-height: 495px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.businessServiceWrap .businessServiceItem:hover {
+  border-color: #6a0387;
+}
+
+@media (max-width: 1700px) {
+  .businessServiceWrap .businessServiceItem {
+    padding: 50px 30px;
+  }
+}
+
+.businessServiceWrap .businessServiceItem h3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+
+.businessServiceWrap .businessServiceItem h3 img {
+  margin-right: 30px;
+  height: 50px;
+}
+
+.businessServiceWrap .businessServiceItem p {
+  margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.businessServiceWrap .businessServiceItem .serviceList li {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.businessServiceWrap .businessServiceItem .serviceList li i {
+  font-size: 20px;
+  margin-right: 15px;
+  color: #6a0387;
+}
+
+.businessServiceWrap .businessServiceItem .serviceList li:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,66 @@
+.suportArea {
+  margin-top: -200px;
+}
+
+.sponsorWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  background: #fff;
+  -webkit-box-shadow: 0px 10px 20px rgba(5, 16, 255, 0.05);
+          box-shadow: 0px 10px 20px rgba(5, 16, 255, 0.05);
+}
+
+.sponsorWrap .sponsorImg {
+  width: 45%;
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .sponsorWrap .sponsorImg {
+    width: 100%;
+  }
+}
+
+.sponsorWrap .sponsorContent {
+  width: 55%;
+  padding: 50px 40px;
+}
+
+@media (max-width: 767px) {
+  .sponsorWrap .sponsorContent {
+    width: 100%;
+    padding: 40px 20px;
+  }
+}
+
+.sponsorWrap .sponsorContent img {
+  margin-bottom: 30px;
+}
+
+.sponsorWrap .sponsorContent h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.sponsorWrap .sponsorContent p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.sponsorWrap .sponsorContent a {
+  font-weight: 600;
+}
+/*# sourceMappingURL=style.css.map */

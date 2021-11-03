@@ -1,0 +1,78 @@
+.feedsItems li {
+  margin-bottom: 15px;
+}
+
+.feedsItems li:last-child {
+  margin-bottom: 0;
+}
+
+.feedsItems li .feedItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 550px) {
+  .feedsItems li .feedItem {
+    display: block;
+  }
+}
+
+.feedsItems li .feedItem .feedImg {
+  width: 80px;
+}
+
+@media (max-width: 550px) {
+  .feedsItems li .feedItem .feedImg {
+    width: 100%;
+  }
+}
+
+.feedsItems li .feedItem .feedImg img {
+  width: 90px;
+  border-radius: 3px;
+}
+
+@media (max-width: 550px) {
+  .feedsItems li .feedItem .feedImg img {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
+
+.feedsItems li .feedItem .feedContent {
+  width: calc(100% - 90px);
+  padding-left: 15px;
+}
+
+@media (max-width: 767px) {
+  .feedsItems li .feedItem .feedContent {
+    padding-left: 0;
+    width: 100%;
+  }
+}
+
+.feedsItems li .feedItem .feedContent h5 {
+  font-size: 17px;
+  line-height: 20px;
+  font-weight: 600;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+  font-family: "Karla", sans-serif;
+}
+
+.feedsItems li .feedItem .feedContent span {
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.feedsItems li .feedItem .feedContent span i {
+  color: #6a0387;
+}
+
+.feedsItems li .feedItem:hover .feedContent h5 {
+  color: #6a0387;
+}
+/*# sourceMappingURL=style.css.map */

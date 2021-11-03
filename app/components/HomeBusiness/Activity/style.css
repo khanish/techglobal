@@ -1,0 +1,95 @@
+.activityWrapper {
+  background: #ffffff;
+  border: 10px solid #6a0387;
+  padding: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: -150px;
+}
+
+@media (max-width: 767px) {
+  .activityWrapper {
+    padding: 0;
+  }
+}
+
+.activityWrapper .activityItem {
+  width: 25%;
+  padding: 40px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-left: 1px solid #e0eeff;
+}
+
+@media (max-width: 1300px) {
+  .activityWrapper .activityItem {
+    padding: 30px 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .activityWrapper .activityItem {
+    width: 50%;
+    padding: 30px;
+  }
+  .activityWrapper .activityItem:nth-child(3) {
+    border-left: none;
+  }
+  .activityWrapper .activityItem:nth-child(1) {
+    border-left: none;
+    border-bottom: 1px solid #e0eeff;
+  }
+  .activityWrapper .activityItem:nth-child(2) {
+    border-bottom: 1px solid #e0eeff;
+  }
+}
+
+@media (max-width: 767px) {
+  .activityWrapper .activityItem {
+    width: 100%;
+    border-bottom: 1px solid #e0eeff;
+  }
+}
+
+.activityWrapper .activityItem:first-child {
+  border-left: none;
+}
+
+.activityWrapper .activityItem .activityIcon {
+  margin-right: 25px;
+}
+
+.activityWrapper .activityItem .activityIcon i {
+  font-size: 50px;
+  color: #6a0387;
+}
+
+.activityWrapper .activityItem .activityContent .custom-count {
+  font-size: 40px;
+  display: inline-block;
+  font-weight: 700;
+  font-family: 'Gilroy-Bold';
+  color: #0d2335;
+}
+
+.activityWrapper .activityItem .activityContent span {
+  color: #0d2335;
+  font-size: 16px;
+  font-weight: 700;
+  font-family: 'Gilroy-Bold';
+}
+
+.activityWrapper .activityItem .activityContent p {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.activityStyleTwo .activityWrapper {
+  position: relative;
+  z-index: 11;
+}
+/*# sourceMappingURL=style.css.map */

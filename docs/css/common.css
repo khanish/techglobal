@@ -1,0 +1,399 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Karla:400,700&display=swap");
+@font-face {
+  font-family: 'Gilroy-Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Bold ☞"), url("../fonts/Gilroy-Bold.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Heavy ☞"), url("../fonts/Gilroy-Heavy.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Light ☞"), url("../fonts/Gilroy-Light.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy-Medium';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Medium"), url("../fonts/Gilroy-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local("Gilroy-Regular"), url("../fonts/Gilroy-Regular.woff") format("woff");
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 16px;
+  color: #758ca0;
+  line-height: 26px;
+}
+
+body a,
+body a:hover,
+body a:focus {
+  color: #758ca0;
+  text-decoration: none;
+  outline: none;
+}
+
+body a,
+body button {
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+body img {
+  max-width: 100%;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+  font-family: 'Gilroy-Bold';
+  text-transform: capitalize;
+  margin: 0;
+  color: #0d2335;
+  font-weight: bold;
+}
+
+body .MuiButton-root,
+body .MuiInputBase-root {
+  font-family: "Karla", sans-serif;
+  color: #0d2335;
+}
+
+body ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+body p {
+  margin: 0;
+}
+
+body .container {
+  width: 1170px;
+  margin: auto;
+}
+
+@media (max-width: 1300px) {
+  body .container {
+    width: 100%;
+  }
+}
+
+body .loadmore {
+  height: 60px;
+  min-width: 200px;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #fff;
+  border: 2px solid #6a0387;
+  background: #6a0387;
+  border-radius: 5px;
+  font-weight: 500;
+  letter-spacing: 2px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+body .loadmore:hover {
+  background: transparent;
+  color: #6a0387;
+}
+
+body .loadmore svg {
+  margin-left: 20px;
+  font-size: 10px;
+}
+
+body .radiusOff {
+  border-radius: 0 !important;
+}
+
+body .btn {
+  height: 60px;
+  min-width: 200px;
+  border-radius: 0px;
+  font-size: 14px;
+  text-transform: capitalize;
+  color: #fff;
+  border: 2px solid #6a0387;
+  background: #6a0387;
+  border-radius: 0px;
+  letter-spacing: 2px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+body .btn:hover {
+  background: transparent;
+  color: #6a0387;
+}
+
+body .overlay {
+  position: relative;
+  z-index: 1;
+}
+
+body .overlay::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  content: "";
+  background: #0d2335;
+  opacity: .9;
+  z-index: -1;
+}
+
+body .inputLabel {
+  font-size: 16px;
+  color: #0d2335;
+  display: block;
+  margin-bottom: 10px;
+}
+
+body .inputField .MuiInputBase-root {
+  background: #fff;
+}
+
+body .inputField .Mui-focused fieldset {
+  border-color: #6a0387 !important;
+}
+
+body .inputField fieldset {
+  border: 1px solid #cfe6f1 !important;
+  border-radius: 0px;
+}
+
+body .inputField p {
+  margin-left: 0;
+  text-transform: capitalize;
+}
+
+body .inputField.inputTextarea textarea {
+  height: 160px !important;
+}
+
+body .textCenter {
+  text-align: center;
+}
+
+body .textRight {
+  text-align: right;
+}
+
+body .textUppercase {
+  text-transform: uppercase;
+}
+
+@media (max-width: 1300px) {
+  body .d-none {
+    display: none;
+  }
+}
+
+body .playBtn {
+  width: 100px;
+  height: 100px;
+  background: #6a0387;
+  border-radius: 0px;
+  position: relative;
+}
+
+body .playBtn span {
+  margin-bottom: 0;
+}
+
+body .playBtn::before {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  content: "";
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+body .playBtn:hover {
+  background: #6a0387;
+}
+
+body .slick-arrow {
+  height: 60px;
+  width: 60px;
+  background: #fff;
+  border: 4px solid #6a0387;
+  right: 155px;
+  top: -90px;
+  z-index: 12;
+}
+
+@media (max-width: 1300px) {
+  body .slick-arrow {
+    right: 15px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .slick-arrow {
+    height: 45px;
+    width: 45px;
+  }
+}
+
+body .slick-arrow:hover {
+  border: 4px solid #f4f9ff;
+}
+
+body .slick-arrow:hover::before {
+  color: #758ca0;
+}
+
+body .slick-arrow:hover::after {
+  opacity: 1;
+}
+
+body .slick-arrow::after {
+  position: absolute;
+  right: -4px;
+  top: -4px;
+  width: calc(100% + 8px);
+  height: 60%;
+  content: "";
+  border-top: 4px solid #6a0387;
+  border-right: 4px solid #6a0387;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+  opacity: 0;
+}
+
+body .slick-arrow::before {
+  content: "\f105";
+  font-family: 'fontawesome';
+  color: #6a0387;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+body .slick-arrow.slick-prev {
+  left: auto;
+  right: 230px;
+}
+
+@media (max-width: 1300px) {
+  body .slick-arrow.slick-prev {
+    right: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  body .slick-arrow.slick-prev {
+    right: 65px;
+  }
+}
+
+body .slick-arrow.slick-prev::before {
+  content: "\f104";
+}
+
+.bannerImg {
+  overflow: hidden;
+  display: block;
+}
+
+.bannerImg img {
+  width: 100%;
+}
+
+.subText {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #6a0387;
+  letter-spacing: 3px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.ptb-104 {
+  padding: 104px 0px;
+}
+
+.protfolioTab .protfolioTabContainer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.protfolioTab .protfolioTabContainer button {
+  color: #fff;
+  font-weight: 500;
+  font-size: 14px;
+  margin: 0 20px;
+  width: unset;
+  min-height: unset;
+  min-width: unset;
+  opacity: .8;
+  letter-spacing: 2px;
+}
+
+.protfolioTab .protfolioTabContainer button[aria-selected="true"] {
+  opacity: 1;
+}
+
+.protfolioTab .protfolioTabContainer button[aria-selected="true"]::before {
+  content: "\f105";
+  font-family: 'fontawesome';
+  margin-right: 10px;
+}
+
+.protfolioTab .protfolioTabIndicator {
+  display: none;
+}
+
+.protfolioTab.protfolioTabStyleBlack .protfolioTabContainer {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.protfolioTab.protfolioTabStyleBlack .protfolioTabContainer button {
+  color: #758ca0;
+  opacity: 1;
+}
+
+.protfolioTab.protfolioTabStyleBlack .protfolioTabContainer button[aria-selected="true"] {
+  color: #6a0387;
+}
+
+.mt-30 {
+  margin-top: 30px !important;
+}
+
+.bgGray {
+  background: #f9fdff;
+}
+/*# sourceMappingURL=common.css.map */

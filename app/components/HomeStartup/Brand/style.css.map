@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,iBAAiB,CAAC;EAChB,UAAU,ECFE,OAAO;EDGnB,OAAO,EAAE,eAAe;CAmBzB;;AArBD,AAIE,iBAJe,CAIf,UAAU,CAAC;EACT,OAAO,EAAE,KAAK;EACd,UAAU,EAAE,MAAM;CAcnB;;AApBH,AAQI,iBARa,CAIf,UAAU,CAIR,GAAG,CAAC;EACF,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,OAAO;EACnB,OAAO,EAAE,EAAE;EACX,UAAU,EAAE,sBAAsB;CACnC;;AAbL,AAgBM,iBAhBW,CAIf,UAAU,AAWP,MAAM,CACL,GAAG,CAAC;EACF,OAAO,EAAE,CAAC;CACX",
+    "sources": [
+        "style.scss",
+        "../../../../docs/css/mixing.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

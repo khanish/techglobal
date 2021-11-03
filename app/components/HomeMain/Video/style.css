@@ -1,0 +1,83 @@
+.videoArea {
+  padding: 115px 0px 0;
+  min-height: 790px;
+  margin-bottom: 175px;
+}
+
+.videoContent {
+  text-align: center;
+  position: relative;
+}
+
+.videoContent span.sub {
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #fff;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 15px;
+}
+
+.videoContent h3 {
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 75px;
+}
+
+@media (max-width: 991px) {
+  .videoContent h3 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .videoContent h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.videoContent h3 span {
+  display: block;
+}
+
+.videoContent h2 {
+  font-size: 250px;
+  color: transparent;
+  font-weight: 700;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  top: 25px;
+  width: 100%;
+}
+
+@media (max-width: 991px) {
+  .videoContent h2 {
+    font-size: 200px;
+    top: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .videoContent h2 {
+    font-size: 100px;
+    top: 0;
+  }
+}
+
+.videoImageWrap {
+  margin-bottom: -175px;
+  margin-top: 40px;
+}
+
+.videoImg img {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

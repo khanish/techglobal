@@ -1,0 +1,49 @@
+.callToActionArea {
+  padding: 104px 0px 90px;
+  background: #0d2335;
+}
+
+@media (max-width: 991px) {
+  .callToActionArea {
+    padding: 104px 0;
+  }
+  .callToActionArea .textRight {
+    text-align: left;
+  }
+}
+
+.callToActionWrap span {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.callToActionWrap h2 {
+  font-size: 60px;
+  color: #fff;
+  line-height: 70px;
+}
+
+@media (max-width: 1300px) {
+  .callToActionWrap h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 991px) {
+  .callToActionWrap h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+@media (max-width: 767px) {
+  .callToActionWrap h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,133 @@
+.featuredArea {
+  margin-top: -140px;
+  position: relative;
+  z-index: 11;
+}
+
+.featuredWrapper {
+  background: #fff;
+  padding: 40px 0px;
+  -webkit-box-shadow: 0px 14px 28px 0px rgba(93, 93, 93, 0.04);
+          box-shadow: 0px 14px 28px 0px rgba(93, 93, 93, 0.04);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  overflow: hidden;
+}
+
+.featuredWrapper .featuredItem {
+  width: 33.33%;
+  padding: 50px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1300px) {
+  .featuredWrapper .featuredItem {
+    padding: 50px 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  .featuredWrapper .featuredItem {
+    padding: 30px 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  .featuredWrapper .featuredItem {
+    width: 100%;
+    padding: 30px;
+  }
+}
+
+.featuredWrapper .featuredItem .icon {
+  height: 55px;
+}
+
+.featuredWrapper .featuredItem:after {
+  position: absolute;
+  left: 50%;
+  top: 153px;
+  background: #e2f0ff;
+  width: 100%;
+  height: 1px;
+  content: "";
+  z-index: -1;
+}
+
+@media (max-width: 767px) {
+  .featuredWrapper .featuredItem:after {
+    display: none;
+  }
+}
+
+.featuredWrapper .featuredItem:last-child::after {
+  display: none;
+}
+
+.featuredWrapper .featuredItem .bigIcon {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: -1;
+}
+
+.featuredWrapper .featuredItem .devaidar {
+  display: block;
+  margin: 40px 0px;
+  min-height: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.featuredWrapper .featuredItem .devaidar::before {
+  position: absolute;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  width: 15px;
+  height: 15px;
+  content: "";
+  background: #fff;
+  border: 4px solid #6a0387;
+  border-radius: 50%;
+}
+
+.featuredWrapper .featuredItem h3 {
+  font-size: 30px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 991px) {
+  .featuredWrapper .featuredItem h3 {
+    font-size: 24px;
+  }
+}
+
+.featuredWrapper .featuredItem p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 25px;
+}
+
+.featuredWrapper .featuredItem button {
+  width: 60px;
+  height: 60px;
+  border-radius: 0px;
+  font-size: 18px;
+  color: #758ca0;
+  border: 4px solid #f3f8ff;
+  background: #fff;
+}
+
+.featuredWrapper .featuredItem button:hover {
+  border-color: #6a0387;
+  color: #6a0387;
+}
+/*# sourceMappingURL=style.css.map */

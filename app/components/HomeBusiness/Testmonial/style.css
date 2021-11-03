@@ -1,0 +1,117 @@
+.testmonialArea {
+  padding: 104px 0px;
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 1300px) {
+  .testmonialArea {
+    padding: 104px 16px;
+  }
+}
+
+.testmonialArea .testStoke {
+  position: absolute;
+  left: 0;
+  top: 100px;
+  width: 100%;
+  text-align: center;
+  font-size: 250px;
+  text-transform: unset;
+  z-index: -1;
+  -webkit-text-stroke: 1px rgba(5, 116, 255, 0.05);
+  color: transparent;
+}
+
+@media (max-width: 1300px) {
+  .testmonialArea .testStoke {
+    font-size: 150px;
+  }
+}
+
+@media (max-width: 767px) {
+  .testmonialArea .testStoke {
+    font-size: 60px;
+  }
+}
+
+.testmonialArea.testmonialStyleTwo {
+  padding: 0;
+}
+
+.testContent h3 {
+  font-size: 36px;
+  line-height: 46px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 1300px) {
+  .testContent h3 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+}
+
+.testContent .count {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.testContent .count::before {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 150px;
+  content: "";
+  height: 2px;
+  background: #6a0387;
+}
+
+.testContent p {
+  margin-bottom: 20px;
+}
+
+.testContent h4 {
+  font-size: 24px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+@media (max-width: 1300px) {
+  .testContent h4 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.testContent span {
+  font-size: 14px;
+  color: #6a0387;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  display: block;
+}
+
+.testSlider div:focus {
+  outline: none;
+}
+
+.testSlider .slick-arrow {
+  top: auto;
+  bottom: 0;
+  right: 0;
+}
+
+@media (max-width: 991px) {
+  .testSlider .slick-arrow {
+    bottom: -45px;
+  }
+}
+
+.testSlider .slick-arrow.slick-prev {
+  right: 75px;
+}
+/*# sourceMappingURL=style.css.map */

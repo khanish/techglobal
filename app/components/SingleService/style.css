@@ -1,0 +1,107 @@
+.serviceItem {
+  border-radius: 5px;
+  -webkit-box-shadow: 0px 8px 16px 0px rgba(207, 228, 255, 0.2);
+          box-shadow: 0px 8px 16px 0px rgba(207, 228, 255, 0.2);
+  overflow: hidden;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.serviceItem .serviceImg {
+  overflow: hidden;
+  position: relative;
+}
+
+.serviceItem .serviceImg a {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 100px;
+  width: 100px;
+  background: #fff;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.serviceItem .serviceImg a i {
+  position: absolute;
+  width: unset;
+  -webkit-transition: all .8s ease-in-out 0s;
+  transition: all .8s ease-in-out 0s;
+  font-size: 40px;
+}
+
+.serviceItem .serviceImg a i.hover {
+  -webkit-transform: translateX(-150px);
+          transform: translateX(-150px);
+}
+
+.serviceItem .serviceImg a i.hover {
+  color: #6a0387;
+}
+
+.serviceItem .serviceImg a:hover i.normal {
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
+}
+
+.serviceItem .serviceImg a:hover i.hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+
+.serviceItem .serviceImg img {
+  width: 100%;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: all 0.4s ease-in-out 0s;
+  transition: all 0.4s ease-in-out 0s;
+}
+
+.serviceItem .serviceContent {
+  padding: 40px 30px;
+  text-align: center;
+}
+
+.serviceItem .serviceContent h3 {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.serviceItem .serviceContent p {
+  color: #758ca0;
+  margin-bottom: 25px;
+}
+
+.serviceItem .serviceContent span {
+  display: inline-block;
+  color: #6a0387;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.serviceItem:hover {
+  -webkit-box-shadow: 0px 16px 32px 0px rgba(207, 228, 255, 0.8);
+          box-shadow: 0px 16px 32px 0px rgba(207, 228, 255, 0.8);
+}
+
+.serviceItem:hover .serviceImg img {
+  -webkit-transform: scale(1.15);
+          transform: scale(1.15);
+}
+
+.serviceItem:hover .serviceImg a i.normal {
+  -webkit-transform: translateX(150px);
+          transform: translateX(150px);
+}
+
+.serviceItem:hover .serviceImg a i.hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+}
+/*# sourceMappingURL=style.css.map */

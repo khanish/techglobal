@@ -1,0 +1,15 @@
+.brandArea {
+  background: #f4fbff;
+  padding: 210px 0px 104px;
+  margin-top: -120px;
+}
+
+.brandArea .brandItem {
+  display: block;
+  text-align: center;
+}
+
+.brandArea .brandItem img {
+  height: 20px;
+}
+/*# sourceMappingURL=style.css.map */

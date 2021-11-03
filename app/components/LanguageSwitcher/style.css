@@ -1,0 +1,43 @@
+.LanguageSwitcher .languageSwitcher::before {
+  display: none;
+}
+
+.LanguageSwitcher .languageSwitcher::after {
+  display: none;
+}
+
+.LanguageSwitcher .languageSwitcher .languageSelectWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.LanguageSwitcher .languageSwitcher .languageSelectWrap span.countryName {
+  margin-left: 5px;
+  text-transform: uppercase;
+  color: #758ca0;
+}
+
+#menu-lang div ul {
+  padding: 0;
+}
+
+#menu-lang div ul li {
+  min-height: unset;
+  padding: 10px;
+}
+
+#menu-lang div ul li span {
+  width: 10px !important;
+}
+
+#menu-lang div ul li span.countryName {
+  margin-left: 5px;
+  font-size: 14px;
+  color: #758ca0;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=style.css.map */

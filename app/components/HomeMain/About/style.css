@@ -1,0 +1,217 @@
+.aboutArea {
+  background: #f9fdff;
+  padding: 104px 0px;
+  min-height: 1020px;
+  position: relative;
+}
+
+.aboutArea .aboutImageWrap {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 50%;
+  overflow: hidden;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+}
+
+@media (max-width: 1300px) {
+  .aboutArea .aboutImageWrap {
+    position: static;
+    width: 100%;
+    top: 0;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    padding: 0px 16px;
+    border-radius: 30px;
+  }
+}
+
+.aboutArea .aboutImageWrap::before, .aboutArea .aboutImageWrap::after {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  content: "";
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+@media (max-width: 767px) {
+  .aboutArea .aboutImageWrap::before, .aboutArea .aboutImageWrap::after {
+    display: none;
+  }
+}
+
+.aboutArea .aboutImageWrap::before {
+  border-left: 2px dashed #fff;
+  border-right: 2px dashed #fff;
+  -webkit-animation: circleLoader 5s linear infinite;
+          animation: circleLoader 5s linear infinite;
+}
+
+.aboutArea .aboutImageWrap::after {
+  width: 450px;
+  height: 450px;
+  border-bottom: 2px dashed #fff;
+  border-top: 2px dashed #fff;
+  -webkit-animation: circleLoader 5s linear infinite;
+          animation: circleLoader 5s linear infinite;
+}
+
+.aboutArea .aboutImageWrap .quoteBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  height: 80px;
+  width: 80px;
+  background: #fff;
+  font-size: 20px;
+  color: #6a0387;
+  z-index: 1;
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.aboutArea .aboutImageWrap .aboutImg img {
+  width: 100%;
+  height: 385px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@-webkit-keyframes circleLoader {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@keyframes circleLoader {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(360deg);
+            transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+@-webkit-keyframes circleLoader2 {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(-360deg);
+            transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+@keyframes circleLoader2 {
+  0% {
+    -webkit-transform: translate(-50%, -50%) rotate(0deg);
+            transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    -webkit-transform: translate(-50%, -50%) rotate(-360deg);
+            transform: translate(-50%, -50%) rotate(-360deg);
+  }
+}
+
+.aboutContent {
+  padding-left: 50px;
+}
+
+@media (max-width: 1300px) {
+  .aboutContent {
+    padding-left: 0;
+  }
+}
+
+.aboutContent .dot {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: #6a0387;
+  border: 4px solid white;
+  -webkit-box-shadow: 0px 10px 20px 0px rgba(5, 116, 255, 0.4);
+          box-shadow: 0px 10px 20px 0px rgba(5, 116, 255, 0.4);
+}
+
+.aboutContent .text {
+  display: block;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 16px;
+  color: #6a0387;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.aboutContent h2 {
+  font-size: 60px;
+  margin-bottom: 20px;
+  line-height: 70px;
+}
+
+@media (max-width: 767px) {
+  .aboutContent h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.aboutContent h4 {
+  font-size: 26px;
+  line-height: 36px;
+  color: #758ca0;
+  margin-bottom: 30px;
+  font-family: "Karla", sans-serif;
+}
+
+@media (max-width: 767px) {
+  .aboutContent h4 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.aboutContent .aboutDetails {
+  padding-left: 40px;
+  border-left: 2px solid #ceefff;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 767px) {
+  .aboutContent .aboutDetails {
+    padding-left: 20px;
+  }
+}
+
+.aboutContent .aboutDetails p {
+  margin-bottom: 20px;
+}
+
+.aboutContent .aboutDetails p:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=style.css.map */

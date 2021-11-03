@@ -1,0 +1,47 @@
+.quoteArea {
+  padding: 114px 0px;
+}
+
+.quoteArea .sectionTitle {
+  margin-bottom: 0;
+}
+
+.quoteWrap {
+  overflow: hidden;
+}
+
+.quoteWrap .quoteVideo {
+  float: left;
+  position: relative;
+  margin-right: 32px;
+}
+
+@media (max-width: 767px) {
+  .quoteWrap .quoteVideo {
+    margin-right: 0;
+    float: none;
+    margin-bottom: 20px;
+  }
+  .quoteWrap .quoteVideo img {
+    width: 100%;
+  }
+}
+
+.quoteWrap .quoteVideo button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #6a0387;
+  font-size: 16px;
+  width: 70px;
+  height: 70px;
+  background: #fff;
+  border-radius: 50%;
+}
+
+.quoteWrap p {
+  overflow: hidden;
+}
+/*# sourceMappingURL=style.css.map */

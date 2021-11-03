@@ -1,0 +1,19 @@
+.businessContactArea {
+  background: #f4fbff;
+  padding: 354px 0px 104px;
+  margin-top: -250px;
+}
+
+@media (max-width: 1300px) {
+  .businessContactArea .businessContactArea {
+    padding: 305px 0px 104px;
+  }
+}
+
+@media (max-width: 991px) {
+  .businessContactArea {
+    margin-top: 0;
+    padding: 104px 0;
+  }
+}
+/*# sourceMappingURL=style.css.map */

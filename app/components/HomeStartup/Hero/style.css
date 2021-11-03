@@ -1,0 +1,141 @@
+.startupHeroArea {
+  min-height: 835px;
+  padding-top: 180px;
+  padding-bottom: 120px;
+}
+
+@media (max-width: 1300px) {
+  .startupHeroArea {
+    min-height: 765px;
+  }
+}
+
+.startupHeroArea .container {
+  width: 1400px;
+  margin: auto;
+}
+
+@media (max-width: 1700px) {
+  .startupHeroArea .container {
+    width: 1300px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .startupHeroArea .container {
+    width: 100%;
+  }
+}
+
+.startupHeroContent .sub {
+  display: block;
+  color: #fff;
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 767px) {
+  .startupHeroContent .sub {
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
+.startupHeroContent h2 {
+  font-size: 85px;
+  line-height: 90px;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 1300px) {
+  .startupHeroContent h2 {
+    font-size: 60px;
+    line-height: 70px;
+  }
+}
+
+@media (max-width: 767px) {
+  .startupHeroContent h2 {
+    font-size: 40px;
+    line-height: 50px;
+  }
+}
+
+.startupHeroContent p {
+  color: #fff;
+  font-size: 18px;
+}
+
+@media (max-width: 767px) {
+  .startupHeroContent p {
+    font-size: 16px;
+  }
+}
+
+.startupHeroContent ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-top: 50px;
+}
+
+.startupHeroContent ul li {
+  margin-right: 30px;
+}
+
+.startupHeroContent ul li:last-child {
+  margin-right: 0;
+}
+
+.startupHeroContent ul li a {
+  width: 200px;
+  height: 60px;
+  -webkit-box-shadow: 0px 16px 32px rgba(54, 85, 125, 0.3);
+          box-shadow: 0px 16px 32px rgba(54, 85, 125, 0.3);
+  background: #00166a;
+  border-radius: 0px;
+  color: #fff;
+  text-transform: capitalize;
+  border: 2px solid #00166a;
+}
+
+@media (max-width: 767px) {
+  .startupHeroContent ul li a {
+    width: 160px;
+    height: 50px;
+  }
+}
+
+.startupHeroContent ul li a svg {
+  margin-left: 15px;
+  font-size: 10px;
+}
+
+.startupHeroContent ul li a:hover {
+  background: #fff;
+  color: #00166a;
+}
+
+.startupHeroContent ul li button {
+  width: 60px;
+  height: 60px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 50%;
+}
+
+@media (max-width: 767px) {
+  .startupHeroContent ul li button {
+    width: 50px;
+    height: 50px;
+    min-width: 50px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

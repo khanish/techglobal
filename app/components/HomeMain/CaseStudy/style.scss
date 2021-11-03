@@ -1,0 +1,111 @@
+@import '../../../../docs/css/mixing.scss';
+
+.caseStudyArea {
+  padding: 104px 0px 120px;
+
+  .swiper-container {
+    padding-bottom: 80px;
+
+    .swiper-pagination {
+      top: auto;
+      bottom: 0px;
+      left: 50%;
+      width: 1170px;
+      transform: translateX(-50%);
+      height: 6px;
+      background: #f0f7ff;
+
+      @media (max-width:1300px) {
+        width: calc(100% - 32px);
+      }
+
+      .swiper-pagination-progressbar-fill {
+        background: $baseCOlor;
+      }
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      height: 50px;
+      width: 50px;
+      background: #fff;
+      border-radius: 3px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid #c0d3e2;
+      top: 38%;
+
+      &:hover {
+        background: $baseCOlor;
+        border-color: $baseCOlor;
+      }
+
+      &::before {
+        font-family: 'fontawesome';
+        font-size: 30px;
+        color: #c0d3e2;
+      }
+    }
+
+    .swiper-button-next {
+      &::before {
+        content: "\f105";
+      }
+    }
+
+    .swiper-button-prev {
+      &::before {
+        content: "\f104";
+      }
+    }
+  }
+}
+
+.caseItems {
+  min-height: 450px;
+  position: relative;
+
+  @media (max-width:1700px) {
+    min-height: 330px;
+  }
+
+  .caseContent {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(13, 35, 53, 0.9) 0%, rgba(13, 35, 53, 0) 100%, #6b8cce 100%, #a2b6df 100%);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    text-align: center;
+    justify-content: flex-end;
+    transition: all .4s ease-in-out 0s;
+    opacity: 0;
+    visibility: hidden;
+
+    span {
+      display: block;
+      text-transform: uppercase;
+      color: #fff000;
+      font-size: 14px;
+      font-weight: 600;
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      font-size: 24px;
+      color: #fff;
+      font-weight: 700;
+    }
+  }
+
+  &:hover {
+    .caseContent {
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+}

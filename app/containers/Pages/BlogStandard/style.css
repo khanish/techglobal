@@ -1,0 +1,124 @@
+.blogStandardArea {
+  padding: 104px 0px;
+}
+
+.blogStandardWrap {
+  margin-bottom: 50px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.blogStandardWrap:last-child {
+  margin-bottom: 0;
+}
+
+.blogStandardWrap .blogStandardVideo {
+  position: relative;
+}
+
+.blogStandardWrap .blogStandardVideo button {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  height: 80px;
+  width: 80px;
+  background: #6a0387;
+  border-radius: 50%;
+  border: 2px solid #6a0387;
+}
+
+.blogStandardWrap .blogStandardVideo button:hover {
+  background: transparent;
+}
+
+.blogStandardWrap .testSlider div {
+  line-height: 0;
+}
+
+.blogStandardWrap .testSlider .slick-arrow {
+  height: 55px;
+  width: 55px;
+  right: 0px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 12;
+  background: rgba(255, 255, 255, 0.9);
+  opacity: 0;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.blogStandardWrap .testSlider .slick-arrow.slick-prev {
+  left: 0;
+  right: auto;
+}
+
+.blogStandardWrap:hover .testSlider .slick-arrow {
+  opacity: 1;
+}
+
+.blogStandardWrap .blogStandardContent {
+  padding: 50px;
+  border: 1px solid #d0e7fa;
+}
+
+@media (max-width: 550px) {
+  .blogStandardWrap .blogStandardContent {
+    padding: 25px;
+  }
+}
+
+.blogStandardWrap .blogStandardContent .blogmeta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blogStandardWrap .blogStandardContent .blogmeta li {
+  font-size: 14px;
+  margin-right: 30px;
+  text-transform: capitalize;
+}
+
+.blogStandardWrap .blogStandardContent .blogmeta li:last-child {
+  margin-right: 0;
+}
+
+.blogStandardWrap .blogStandardContent .blogmeta li svg {
+  font-size: 10px;
+  margin-right: 10px;
+}
+
+.blogStandardWrap .blogStandardContent h3 {
+  font-size: 30px;
+  line-height: 40px;
+  margin: 10px 0px 20px;
+}
+
+@media (max-width: 550px) {
+  .blogStandardWrap .blogStandardContent h3 {
+    font-size: 22px;
+    line-height: 32px;
+  }
+}
+
+.blogStandardWrap .blogStandardContent h3 a {
+  color: #0d2335;
+}
+
+.blogStandardWrap .blogStandardContent h3 a:hover {
+  color: #6a0387;
+}
+
+@media (max-width: 550px) {
+  .blogStandardWrap .blogStandardContent p {
+    font-size: 14px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

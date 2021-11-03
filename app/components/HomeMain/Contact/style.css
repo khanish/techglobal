@@ -1,0 +1,17 @@
+.contactArea {
+  min-height: 960px;
+  background: #f9fdff;
+  padding: 104px 0px;
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+}
+
+.contactArea::before {
+  position: absolute;
+  right: 105px;
+  top: -60px;
+  content: url(../../../images/icons/contact.png);
+  z-index: -1;
+}
+/*# sourceMappingURL=style.css.map */

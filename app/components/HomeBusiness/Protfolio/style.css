@@ -1,0 +1,15 @@
+.portfolioArea {
+  padding-top: 304px;
+  padding-bottom: 230px;
+}
+
+@media (max-width: 550px) {
+  .portfolioArea {
+    padding-top: 395px;
+  }
+}
+
+.portfolioArea.protfolioAreaStyleTwo {
+  padding-top: 104px;
+}
+/*# sourceMappingURL=style.css.map */

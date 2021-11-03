@@ -1,0 +1,115 @@
+.breadcumbArea {
+  min-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media (max-width: 767px) {
+  .breadcumbArea {
+    min-height: 400px;
+  }
+}
+
+.breadcumbArea h3 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  z-index: -1;
+  font-size: 400px;
+  line-height: 320px;
+  text-transform: unset;
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.15);
+  color: transparent;
+}
+
+@media (max-width: 1300px) {
+  .breadcumbArea h3 {
+    font-size: 250px;
+    line-height: 200px;
+  }
+}
+
+@media (max-width: 767px) {
+  .breadcumbArea h3 {
+    display: none;
+  }
+}
+
+.breadcumbArea .breadcumbWrap {
+  text-align: center;
+}
+
+.breadcumbArea .breadcumbWrap h2 {
+  font-size: 60px;
+  line-height: 70px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 767px) {
+  .breadcumbArea .breadcumbWrap h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+
+.breadcumbArea .breadcumbWrap ul li {
+  display: inline-block;
+}
+
+.breadcumbArea .breadcumbWrap ul li::before {
+  content: "|";
+  margin: 0px 10px;
+  color: #8598a8;
+}
+
+.breadcumbArea .breadcumbWrap ul li:first-child::before {
+  display: none;
+}
+
+.breadcumbArea .breadcumbWrap ul li a,
+.breadcumbArea .breadcumbWrap ul li span {
+  font-size: 14px;
+  color: #8598a8;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.breadcumbArea .breadcumbWrap ul li a:hover {
+  color: #6a0387;
+}
+
+.breadcumbArea.breadcumbStyleTwo {
+  padding-top: 85px;
+}
+
+.breadcumbArea.breadcumbStyleTwo .breadcumbWrap {
+  text-align: left;
+}
+
+.breadcumbArea.breadcumbStyleTwo .breadcumbWrap ul li::before {
+  color: #fff;
+}
+
+.breadcumbArea.breadcumbStyleTwo .breadcumbWrap ul li a,
+.breadcumbArea.breadcumbStyleTwo .breadcumbWrap ul li span {
+  font-size: 18px;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: 400;
+}
+
+.breadcumbArea.breadcumbStyleTwo .breadcumbWrap ul li a:hover {
+  color: #6a0387;
+}
+
+.breadcumbArea.breadcumbStyleTwo.overlay::before {
+  opacity: .3;
+}
+/*# sourceMappingURL=style.css.map */

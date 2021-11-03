@@ -1,0 +1,55 @@
+.businessVideoArea {
+  min-height: 800px;
+  padding: 104px 0px 0;
+  margin-bottom: 145px;
+}
+
+@media (max-width: 767px) {
+  .businessVideoArea {
+    margin-bottom: 0;
+  }
+}
+
+.businessVideoArea h2 {
+  color: #fff;
+  font-size: 55px;
+  line-height: 65px;
+}
+
+@media (max-width: 1300px) {
+  .businessVideoArea h2 {
+    font-size: 45px;
+    line-height: 55px;
+  }
+}
+
+@media (max-width: 767px) {
+  .businessVideoArea h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.businessVideoArea span {
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.businessVideoImg {
+  border: 15px solid #fff;
+  margin-bottom: -175px;
+  position: relative;
+  margin-top: 20px;
+}
+
+.businessVideoImg .playBtn {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+/*# sourceMappingURL=style.css.map */

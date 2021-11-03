@@ -1,0 +1,159 @@
+.historyItems .historyItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 100px 0 50px;
+  position: relative;
+}
+
+@media (max-width: 767px) {
+  .historyItems .historyItem {
+    display: block;
+    padding: 100px 10px 30px;
+    border: 1px solid #efefef;
+    margin-bottom: 32px;
+  }
+}
+
+.historyItems .historyItem::before {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  width: 1px;
+  height: 100%;
+  content: "";
+  background: #efefef;
+}
+
+@media (max-width: 767px) {
+  .historyItems .historyItem::before {
+    display: none;
+  }
+}
+
+.historyItems .historyItem h3 {
+  position: absolute;
+  width: 100%;
+  background: #fff;
+  left: 0;
+  top: 0;
+  text-align: center;
+  color: #6a0387;
+  font-size: 40px;
+  line-height: 50px;
+}
+
+@media (max-width: 767px) {
+  .historyItems .historyItem h3 {
+    top: 20px;
+  }
+}
+
+.historyItems .historyItem .historyImg {
+  width: 45%;
+}
+
+@media (max-width: 767px) {
+  .historyItems .historyItem .historyImg {
+    width: 100%;
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 767px) {
+  .historyItems .historyItem .historyImg img {
+    width: 100%;
+  }
+}
+
+.historyItems .historyItem .historyContent {
+  width: 45%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 767px) {
+  .historyItems .historyItem .historyContent {
+    width: 100%;
+  }
+}
+
+.historyItems .historyItem .historyContent h4 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 991px) {
+  .historyItems .historyItem .historyContent h4 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.historyItems .historyItem .historyContent p {
+  font-size: 14px;
+}
+
+.historyItems .historyItem:nth-child(odd) .historyImg {
+  -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+          order: 2;
+}
+
+.historyItems .historyItem:nth-child(odd) .historyContent {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  text-align: right;
+}
+
+.historyArea .plusBtn {
+  width: 70px;
+  height: 70px;
+  border: 1px solid #efefef;
+  border-radius: 0px;
+  font-size: 40px;
+  font-family: 'Gilroy-Regular';
+  color: #6a0387;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.historyArea .plusBtn:hover {
+  background: #6a0387;
+  color: #fff;
+  border-color: #6a0387;
+}
+
+.historyArea .plusBtn span {
+  line-height: 0;
+}
+
+.historyArea .sectionTitle h3 {
+  padding: 0px 200px;
+}
+
+@media (max-width: 1300px) {
+  .historyArea .sectionTitle h3 {
+    padding: 0px 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  .historyArea .sectionTitle h3 {
+    padding: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,64 @@
+.caseStudyWrap {
+  border: 1px solid #c6d7e5;
+  padding: 40px 30px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+@media (max-width: 400px) {
+  .caseStudyWrap {
+    padding: 30px 15px;
+  }
+}
+
+.caseStudyWrap:hover {
+  border-color: #6a0387;
+}
+
+.caseStudyWrap span {
+  text-transform: uppercase;
+  color: #6a0387;
+  font-weight: 700;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.caseStudyWrap h4 {
+  font-size: 30px;
+}
+
+.caseStudyWrap .image {
+  padding: 30px;
+  background: #fff7f7;
+  margin: 40px 0;
+}
+
+@media (max-width: 400px) {
+  .caseStudyWrap .image {
+    padding: 15px;
+  }
+}
+
+.caseStudyWrap .image img {
+  height: 200px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-box-shadow: 0px 10px 20px rgba(0, 63, 162, 0.2);
+          box-shadow: 0px 10px 20px rgba(0, 63, 162, 0.2);
+}
+
+.caseStudyWrap p {
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.caseStudyWrap a {
+  display: inline-block;
+}
+
+.caseStudyWrap a:hover {
+  color: #6a0387;
+}
+/*# sourceMappingURL=style.css.map */

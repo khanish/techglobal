@@ -1,0 +1,73 @@
+.sectionTitle {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 40px;
+}
+
+.sectionTitle.textLeft {
+  text-align: left;
+}
+
+.sectionTitle span {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #6a0387;
+  letter-spacing: 3px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.sectionTitle h3 {
+  font-size: 60px;
+  line-height: 70px;
+  font-weight: 700;
+}
+
+@media (max-width: 767px) {
+  .sectionTitle h3 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.sectionTitle h2 {
+  position: absolute;
+  left: 50%;
+  top: 25px;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  font-size: 250px;
+  width: 100%;
+  z-index: -1;
+  -webkit-text-stroke: 1px rgba(5, 116, 255, 0.05);
+  color: transparent;
+}
+
+@media (max-width: 991px) {
+  .sectionTitle h2 {
+    font-size: 175px;
+    top: 35px;
+  }
+}
+
+@media (max-width: 767px) {
+  .sectionTitle h2 {
+    font-size: 70px;
+    top: 0;
+  }
+}
+
+.sectionTitle.sectionTitleWhite h3 {
+  color: #fff;
+}
+
+.sectionTitle.sectionTitleWhite h2 {
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.1);
+}
+
+.sectionTitle.sectionTitleWhite2 span {
+  color: #fff;
+}
+/*# sourceMappingURL=style.css.map */

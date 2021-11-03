@@ -1,0 +1,31 @@
+.tagsWrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin: 0px -3px -3px;
+}
+
+.tagsWrap li {
+  padding: 3px;
+}
+
+.tagsWrap li a {
+  min-width: unset;
+  height: unset;
+  font-size: 14px;
+  text-transform: capitalize;
+  border: 1px solid #eaeaea;
+  color: #758ca0;
+  padding: 7px 23px;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.tagsWrap li a:hover {
+  background: #6a0387;
+  color: #fff;
+  border-color: #6a0387;
+}
+/*# sourceMappingURL=style.css.map */

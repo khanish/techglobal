@@ -1,0 +1,10 @@
+{
+    "version": 3,
+    "mappings": "AAEA,AAAA,cAAc,CAAC;EACb,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,KAAK;CAStB;;AAPC,MAAM,EAAE,SAAS,EAAE,KAAK;EAJ1B,AAAA,cAAc,CAAC;IAKX,WAAW,EAAE,KAAK;GAMrB;;;AAXD,AAQE,cARY,AAQX,sBAAsB,CAAC;EACtB,WAAW,EAAE,KAAK;CACnB",
+    "sources": [
+        "style.scss",
+        "../../../../docs/css/mixing.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

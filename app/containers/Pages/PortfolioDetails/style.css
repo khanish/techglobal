@@ -1,0 +1,84 @@
+.blogDetailsSubBorder {
+  padding-top: 50px;
+  margin-top: 50px;
+  border-top: 1px solid #eaeaea;
+}
+
+.portfolioDetailsList {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 10px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.portfolioDetailsList li {
+  margin-bottom: 30px;
+}
+
+.portfolioDetailsList li h4 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.portfolioDetailsList li span {
+  font-size: 14px;
+}
+
+.detailsContent {
+  background: #fff;
+  -webkit-box-shadow: 0px 4px 8px rgba(206, 216, 230, 0.2);
+          box-shadow: 0px 4px 8px rgba(206, 216, 230, 0.2);
+  padding: 80px;
+  margin: -100px 40px 50px;
+  position: relative;
+  z-index: 11;
+}
+
+@media (max-width: 767px) {
+  .detailsContent {
+    margin: -50px 10px 30px;
+    padding: 20px;
+  }
+}
+
+.detailsContent h2 {
+  font-size: 60px;
+  line-height: 70px;
+  margin-bottom: 25px;
+}
+
+@media (max-width: 767px) {
+  .detailsContent h2 {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+.detailsContent p {
+  margin-bottom: 0 !important;
+}
+
+.portfolioDetails p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.portfolioDetails h3 {
+  font-size: 40px;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+
+.portfolioDetails .detailsVideo {
+  padding-top: 30px;
+}
+
+.portfolioDetails .detailsVideo .container {
+  width: 100%;
+}
+/*# sourceMappingURL=style.css.map */

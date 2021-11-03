@@ -1,0 +1,89 @@
+.contactpageArea {
+  position: relative;
+}
+
+@media (max-width: 1300px) {
+  .contactpageArea {
+    padding: 104px 16px;
+  }
+}
+
+.contactpageArea .googleMap {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 45%;
+  height: 100%;
+}
+
+@media (max-width: 1300px) {
+  .contactpageArea .googleMap {
+    display: none;
+  }
+}
+
+.contactpageArea .sectionTitle h2 {
+  font-size: 200px;
+}
+
+@media (max-width: 767px) {
+  .contactpageArea .sectionTitle h2 {
+    font-size: 80px;
+  }
+}
+
+.contactNowWrap {
+  background: #fff;
+  -webkit-box-shadow: 0 4px 8px rgba(206, 216, 230, 0.25);
+          box-shadow: 0 4px 8px rgba(206, 216, 230, 0.25);
+  padding: 15px;
+}
+
+.contactNowWrap .contactNowInfo {
+  border: 2px solid #f4f8ff;
+  text-align: center;
+  -webkit-transition: all .4s ease-in-out 0s;
+  transition: all .4s ease-in-out 0s;
+}
+
+.contactNowWrap .contactNowInfo img {
+  margin-top: 60px;
+  margin-bottom: 30px;
+  height: 40px;
+}
+
+.contactNowWrap .contactNowInfo h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contactNowWrap .contactNowInfo span {
+  display: block;
+}
+
+.contactNowWrap .contactNowInfo a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 2px solid #f4f8ff;
+  color: #a4b2bf;
+  margin-top: 60px;
+  font-size: 16px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 0px;
+}
+
+.contactNowWrap:hover .contactNowInfo {
+  border-color: #6a0387;
+}
+
+.contactNowWrap:hover .contactNowInfo a {
+  border-color: #6a0387;
+  color: #6a0387;
+}
+/*# sourceMappingURL=style.css.map */
