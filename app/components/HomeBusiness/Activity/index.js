@@ -8,13 +8,13 @@ const Activity = ({ className }) => {
 
     const activitys = [
         {
-            icon: 'pe-7s-users',
+            icon: 'pe-7s-study',
             title: 'DevOp Graduates',
             value: 400,
             id: 1
         },
         {
-            icon: 'pe-7s-next-2',
+            icon: 'pe-7s-users',
             title: 'Job Placement',
             value: 350,
             id: 2
@@ -26,7 +26,7 @@ const Activity = ({ className }) => {
             id: 3
         },
         {
-            icon: 'pe-7s-paper-plane',
+            icon: 'pe-7s-next-2',
             title: 'Acknolegments',
             value: 100,
             id: 4

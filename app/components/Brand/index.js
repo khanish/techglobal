@@ -13,7 +13,7 @@ import brand3 from 'images/brand/img3.png'
 import brand4 from 'images/brand/img4.png'
 import brand5 from 'images/brand/img5.png'
 
-const brands = [brand1, brand2, brand3, brand4, brand5, brand3, brand4,]
+const brands = [brand1, brand2, brand3, brand4, brand5, brand3, brand4]
 
 const Brand = () => {
     const settings = {

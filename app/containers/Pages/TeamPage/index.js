@@ -1,7 +1,7 @@
 import React, { Fragment, Component } from 'react';
 import { injectIntl } from 'react-intl';
 import { Grid } from '@material-ui/core'
-// components 
+// components
 import Header from 'components/Header/Loadable'
 import Breadcumb from 'components/Breadcumb/Loadable'
 import CallToAction from 'components/CallToAction/Loadable'
@@ -11,10 +11,10 @@ import Blog from 'components/HomeMain/Blog/Loadable'
 import Footer from 'components/Footer/Loadable'
 import './style.scss'
 
-// images 
+// images
 import logo from 'images/logo.png'
 import logoBlack from 'images/logo-white.png'
-import breadcumbImg from 'images/bg/breadcumb2.jpg'
+import breadcumbImg from 'images/team/team.jpg'
 
 
 const links = [

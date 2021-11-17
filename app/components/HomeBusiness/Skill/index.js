@@ -4,7 +4,7 @@ import messages from './messages';
 import { Grid } from '@material-ui/core'
 import './style.scss'
 
-// images 
+// images
 import skill from 'images/skill.jpg'
 
 const Skill = (props) => {
@@ -15,16 +15,16 @@ const Skill = (props) => {
         items: [
             {
                 name: 'UI/UX Design',
-                value: 47,
+                value: 89,
                 color: '#26cfff'
             },
             {
-                name: 'Front-end Developer',
-                value: 75,
+                name: 'Application Developer',
+                value: 90,
                 color: '#ffd426'
             },
             {
-                name: 'Back-end Developer',
+                name: 'DevOps Engineering/Operation',
                 value: 95,
                 color: '#ff325d'
             },

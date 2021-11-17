@@ -4,9 +4,9 @@ import messages from './messages';
 import { Grid, Button } from '@material-ui/core'
 import './style.scss'
 
-// images 
+// images
 import info1 from 'images/info.jpg'
-import info2 from 'images/info.png'
+import info2 from 'images/cloud.jpg'
 import phone from 'images/phone.png'
 import email from 'images/email.png'
 import bgImg from 'images/bg/info.jpg'
@@ -23,7 +23,7 @@ const ContactInfo = () => {
                             </span>
                             <span className="infoRight">
                                 <span>Phone Number</span>
-                                <h3>+989 898 787 67</h3>
+                                <h3>+1 437 215 2483</h3>
                             </span>
                         </Button>
                         <img className="infoLeftImg" src={info1} alt="" />
@@ -40,7 +40,7 @@ const ContactInfo = () => {
                             </span>
                             <span className="infoRight">
                                 <span>Email Address</span>
-                                <h3>info@example.com</h3>
+                                <h3>info@tekglobal.io</h3>
                             </span>
                         </Button>
 

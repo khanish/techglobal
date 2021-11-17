@@ -6,7 +6,7 @@ import SectionTitle from 'components/SectionTitle/Loadable'
 import Slider from "react-slick";
 import './style.scss'
 
-// images 
+// images
 import icon1 from 'images/icons/service/icon1.png'
 import icon2 from 'images/icons/service/icon2.png'
 import icon3 from 'images/icons/service/icon3.png'
@@ -20,7 +20,7 @@ const BusinessService = (props) => {
             {
                 title: `${props.intl.formatMessage({ ...messages.ProductDesign })}`,
                 icon: 'pe-7s-study',
-                details: '1-on-1 Training, 6-Hour Classes, Flexible Dates, Best Value, Enroll Now! Free Demo Class, Guaranteed Schedule, Certified Instructor, Accredited Training. ',
+                details: 'Step up with us to unleash and empower your teams talents. 1-on-1 Training, 6-Hour Classes, Flexible Dates, Best Value, Enroll Now! Free Demo Class, Guaranteed Schedule, Certified Instructor, Accredited Training. ',
                 id: 1,
                 items: [
                     {
@@ -42,6 +42,10 @@ const BusinessService = (props) => {
                     {
                         icon: 'pe-7s-study',
                         text: 'Game Design'
+                    },
+                    {
+                        icon: 'pe-7s-study',
+                        text: 'Database Development'
                     },
                 ]
             },
@@ -76,7 +80,7 @@ const BusinessService = (props) => {
             {
                 title: `${props.intl.formatMessage({ ...messages.Architecture })}`,
                 icon: 'pe-7s-headphones',
-                details: 'We offer impartial IT support consultant and project services with clearly explained help and technical planning with no hidden costs.',
+                details: 'We partner with you to reach solutions that would improve your institutional productivity and performance. We offer impartial IT support consultant and project services with clearly explained help and technical planning with no hidden costs.',
                 id: 3,
                 items: [
                     {

@@ -6,7 +6,7 @@ import { Grid, Button } from '@material-ui/core'
 import SectionTitle from 'components/SectionTitle/Loadable'
 import './style.scss'
 
-// images 
+// images
 import icon1 from 'images/icons/wedo/icon1.png'
 import icon2 from 'images/icons/wedo/icon2.png'
 import icon3 from 'images/icons/wedo/icon1.png'
@@ -18,19 +18,19 @@ const services = {
         {
             icon: icon1,
             title: 'DevOps Engineering',
-            text: 'DevOps is a set of practices that combines software development and IT operations. It aims to shorten the systems development life cycle and provide continuous delivery with high software quality. ',
+            text: 'Accelerate your development cycle by minimizing costs and driving efficiency with our DevOps experts. 1 Overview If you want to improve your software delivery, build a culture of agility and automation, accelerate software releases, and harness the power of the cloud, we can help. The first step is to adopt a modern way of developing and releasing software by unifying software development and IT operations, also called DevOps.',
             id: 1
         },
         {
             icon: icon2,
             title: 'Consultancy',
-            text: 'Representing all of the major telecom companies Geeks On Call finds the right service. ',
+            text: 'From evolving customer expectations and emerging technologies to more nimble companies entering industries, businesses today are more at risk for disruption than ever before. Our business consultants can help you adapt to today’s market dynamics and continue to compete no matter the threats you might be facing. Tools to enable optimal remote work can help minimize or prevent disruption in your operations. We partner with you to reach solutions that would improve your institutional productivity and performance. ',
             id: 2
         },
         {
             icon: icon3,
             title: 'Software Development',
-            text: 'Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components. ',
+            text: 'Dealing with digital projects can be a demanding process. No matter the complexity, a software development process always implies making many tech-related decisions that can have a huge impact on your business. Navigating all of them can be tricky and nerve-inducing, especially if you don’t have the proper knowledge. But don’t worry – we’re here to help.',
             id: 3
         },
     ]

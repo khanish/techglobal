@@ -4,7 +4,7 @@ import { injectIntl } from 'react-intl';
 import { Grid, ExpansionPanel, ExpansionPanelSummary, ExpansionPanelDetails, Button } from '@material-ui/core'
 import ModalVideo from 'react-modal-video'
 
-// components 
+// components
 import Header from 'components/Header/Loadable'
 import ContactInfo from 'components/ContactInfo/Loadable'
 import SectionTitle from 'components/SectionTitle/Loadable'
@@ -13,11 +13,11 @@ import Footer from 'components/Footer/Loadable'
 
 import './style.scss'
 
-// images 
+// images
 import logo from 'images/logo.png'
 import logoBlack from 'images/logo.png'
 import faqImg from 'images/faq.jpg'
-import breadcumbImg from 'images/bg/breadcumb1.jpg'
+import breadcumbImg from 'images/faq.jpg'
 import play from 'images/icons/play.png'
 
 const links = [

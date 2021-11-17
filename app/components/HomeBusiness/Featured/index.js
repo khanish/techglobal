@@ -23,13 +23,13 @@ const Featured = (props) => {
             id: 2,
             big: big,
             title: 'Software Development',
-            details: 'Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug fixing involved in creating and maintaining applications, frameworks, or other software components.'
+            details: 'Enterprise Applications is not just technology... It is among your core assets. We help you choose wisely, implement, adopt, and launch.'
         },
         {
             image: icon3,
             id: 3,
             title: 'Tratagic Planing',
-            details: 'Gain Access to a Practical Strategic Planning Skill Set That You Can Apply Immediately. Lead Business Strategy Through Uncertainty in Complex Environments.'
+            details: 'There is nothing more valuable than an objective assessment that provides the opportunity for scoping. So gain access to a practical strategic planning skill set that you can apply immediately.'
         },
     ]
     return (

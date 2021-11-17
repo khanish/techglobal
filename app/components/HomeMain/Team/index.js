@@ -5,7 +5,7 @@ import { Grid, Button } from '@material-ui/core'
 import SectionTitle from 'components/SectionTitle/Loadable'
 import './style.scss'
 
-// images 
+// images
 import image1 from 'images/team/img1.jpg'
 import image2 from 'images/team/img2.jpg'
 import image3 from 'images/team/img3.jpg'
@@ -32,21 +32,6 @@ const Team = (props) => {
                 image: image3,
                 name: 'Rosalina D. Pelin',
                 designation: `${props.intl.formatMessage({ ...messages.Developer })}`,
-            },
-            {
-                image: image2,
-                name: 'Kelian Williamson',
-                designation: `${props.intl.formatMessage({ ...messages.Developer })}`,
-            },
-            {
-                image: image3,
-                name: 'Membis Rabon',
-                designation: `${props.intl.formatMessage({ ...messages.ceo })}`,
-            },
-            {
-                image: image1,
-                name: 'Rosalina D. Pelin',
-                designation: `${props.intl.formatMessage({ ...messages.Founder })}`,
             },
         ]
     }

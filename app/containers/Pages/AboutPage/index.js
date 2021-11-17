@@ -96,8 +96,8 @@ const AboutPage = () => {
             </Grid>
             <WhatWeDo />
             <Activity className="activityStyleTwo" />
-            <VideoComponent />
-            {/*<StartupFaq
+            {/*<VideoComponent />
+            <StartupFaq
                 className="faqStyleTwoArea"
             />*/}
             <CallToAction />

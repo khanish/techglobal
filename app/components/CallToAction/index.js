@@ -21,7 +21,7 @@ const CallToAction = (props) => {
                     </Grid>
                 </Grid>
                 <Grid className="textRight" item lg={3} md={4} xs={12}>
-                    <Button href="/contact" className="btn textUppercase">{props.intl.formatMessage({ ...messages.getaquote })}</Button>
+                    <Button href="/contact" className="btn textUppercase">{"Talk to OUR Experts"}</Button>
                 </Grid>
             </Grid>
         </Grid>

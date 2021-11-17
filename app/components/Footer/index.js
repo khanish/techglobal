@@ -25,23 +25,23 @@ const Footer = (props) => {
             `${props.intl.formatMessage({ ...messages.BusinessPlanning })}`,
         ],
         contacts: [
-            'info@mylandmarktech.com',
+            'info@tekglobal.io',
             '+1 437 215 2483',
             'Ontario, Canada',
-            'tekglobal.com',
+            'tekglobal.io',
         ],
         newsFeed: [
             {
                 image: image1,
-                title: `${props.intl.formatMessage({ ...messages.Loremipsumdolorsitametconsecteturadipisicing })}`,
-                author: 'Smith Edmond',
-                link: 'https://devops.com/aqua-security-acquires-tfsec-to-advance-devsecops/'
+                title: `Optimize DevOps delivery using team-based metrics`,
+                author: 'C. S. Sama',
+                link: 'https://linearb.io/devops-metrics/?utm_term=devops%20tools&utm_campaign=M-DevOps&utm_source=adwords&utm_medium=ppc&hsa_acc=1650697142&hsa_cam=12640060555&hsa_grp=119547223909&hsa_ad=543298801096&hsa_src=g&hsa_tgt=kwd-298322616678&hsa_kw=devops%20tools&hsa_mt=b&hsa_net=adwords&hsa_ver=3&gclid=CjwKCAiA7dKMBhBCEiwAO_crFDmyjpFWgcOkig52d7CpHIk1HddlULwHuoyv2DGRMOkgIooZ4-mhbRoC89IQAvD_BwE'
             },
             {
                 image: image2,
-                title: `${props.intl.formatMessage({ ...messages.Loremipsumdolorsitametconsecteturadipisicing1})}`,
-                author: 'Jonathan E.A',
-                link: 'https://devops.com/a-special-message-from-reddit-co-founder-alexis-ohanian-for-techstrong-con/'
+                title: `The fastest path to FedRAMP compliance`,
+                author: 'C. S. Sama',
+                link: 'https://www.anitian.com/fedramp-compliance-automation/'
             },
         ]
     }
@@ -63,8 +63,8 @@ const Footer = (props) => {
                         <ul className="socialLink">
                             <li><Button component="a" href="https://www.facebook.com/Landmark-Metropolitan-University-885564278136131" target='_blank'><i className="fa fa-facebook"></i></Button></li>
                             <li><Button component="a" href="https://www.linkedin.com/company/71906792/admin/" target='_blank'><i className="fa fa-linkedin"></i></Button></li>
-                            <li><Button component="a" href="https://www.youtube.com/channel/UCa98yMG9Sxtcyk61li3jPwQ"><i className="fa fa-youtube" target='_blank'></i></Button></li>
-                            <li><Button component="a" href="https://wa.me/14372152483"><i className="fa fa-whatsapp" target='_blank'></i></Button></li>
+                            <li><Button component="a" href="https://www.youtube.com/channel/UCa98yMG9Sxtcyk61li3jPwQ" target='_blank'><i className="fa fa-youtube" ></i></Button></li>
+                            <li><Button component="a" href="https://wa.me/14372152483" target='_blank'><i className="fa fa-whatsapp"></i></Button></li>
                         </ul>
                     </Grid>
                 </Grid>

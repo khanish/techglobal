@@ -2,12 +2,13 @@ import React, { useState, Fragment } from 'react';
 import { Grid, Tab, Tabs, Button } from '@material-ui/core'
 import SectionTitle from 'components/SectionTitle/Loadable'
 import Slider from "react-slick";
-// images 
+import BusinessService from 'components/HomeBusiness/BusinessService/Loadable'
+// images
 import logo from 'images/logo.png'
 import logoBlack from 'images/logo-white.png'
-import breadcumbImg from 'images/bg/breadcumb2.jpg'
+import breadcumbImg from 'images/bg/consult.jpg'
 
-// components 
+// components
 import Header from 'components/Header/Loadable'
 import Breadcumb from 'components/Breadcumb/Loadable'
 import Activity from 'components/HomeBusiness/Activity/Loadable'
@@ -140,10 +141,13 @@ const CconsultancyService = () => {
                 bgImg={breadcumbImg}
                 stoketext="onova"
             />
+            <BusinessService />
+            <br /><br /><br /><br /><br />
             <Activity
                 className="consultancyActivity"
             />
-            <Grid className="consultancyServiceArea">
+
+            {/*<Grid className="consultancyServiceArea">
                 <Grid className="container" container spacing={4}>
                     <Grid item xs={12}>
                         <SectionTitle
@@ -167,9 +171,10 @@ const CconsultancyService = () => {
                     ))}
                 </Slider>
             </Grid>
-            <Testmonial className="serviceTestmonial" />
-            <StartupPricing />
 
+            <StartupPricing />*/}
+            <Testmonial className="serviceTestmonial" />
+            <br /><br /><br />
             <CallToAction />
             <Footer
                 logo={logoBlack}

@@ -6,7 +6,7 @@ import { Grid, Button, TextField, InputAdornment, FormLabel } from '@material-ui
 import Joi from 'joi-browser'
 import { toast } from 'react-toastify'
 import { Map, InfoWindow, Marker, GoogleApiWrapper } from 'google-maps-react';
-// components 
+// components
 import Header from 'components/Header/Loadable'
 import SectionTitle from 'components/SectionTitle/Loadable'
 import Breadcumb from 'components/Breadcumb/Loadable'
@@ -15,10 +15,10 @@ import CallToAction from 'components/CallToAction/Loadable'
 
 import './style.scss'
 
-// images 
+// images
 import logo from 'images/logo.png'
 import logoBlack from 'images/logo-white.png'
-import breadcumbImg from 'images/bg/breadcumb2.jpg'
+import breadcumbImg from 'images/contact.jpg'
 import user from 'images/icons/user.png'
 import phone from 'images/icons/phone.png'
 import email from 'images/icons/email.png'
@@ -32,26 +32,24 @@ import mapIcon from 'images/map.png'
 const contactInfo = [
     {
         name: 'Phone Number',
-        value1: '+88 97 876 765 9',
-        value2: '(879) 876 567 867 56',
+        value1: '+1 437 215 2483',
         icon: phoneIcon,
         btn: 'Call Us Now',
-        link: 'tel:+98989878767',
+        link: 'tel:+14372152483',
         id: 1
     },
     {
         name: 'Email Address',
-        value1: 'info@webmail.com',
-        value2: 'example@web.com',
+        value1: 'info@tekglobal.io',
         icon: emailIcon,
         btn: 'Mail Us Now',
-        link: 'mailto:info@example.com',
+        link: 'mailto:info@tekglobal.io',
         id: 2
     },
     {
         name: 'Office Address',
-        value1: '12/A, Evil Dead City',
-        value2: 'New York, US',
+        value1: '12/A, Rossey Road',
+        value2: 'Toronto, Canada',
         icon: mapIcon,
         btn: 'Get Here',
         link: 'Javascript:void(0)',
@@ -317,7 +315,6 @@ class ContactPage extends Component {
 
                     </Grid>
                 </Grid>
-                <CallToAction />
                 <Footer
                     logo={logoBlack}
                     className="blackFooterArea"

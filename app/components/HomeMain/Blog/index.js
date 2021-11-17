@@ -6,10 +6,10 @@ import SectionTitle from 'components/SectionTitle/Loadable'
 import SingleBlog from 'components/SingleBlog/Loadable'
 import './style.scss'
 
-// images 
-import image1 from 'images/blogs/img1.jpg'
-import image2 from 'images/blogs/img2.jpg'
-import image3 from 'images/blogs/img3.jpg'
+// images
+import image1 from 'images/dev.jpeg'
+import image2 from 'images/dev1.jpg'
+import image3 from 'images/soft.webp'
 
 const Blog = (props) => {
     const blogs = {
@@ -18,29 +18,29 @@ const Blog = (props) => {
         items: [
             {
                 image: image1,
-                title: `${props.intl.formatMessage({ ...messages.Loremipsumdolorsitametconsectetur })} 01`,
-                details: `${props.intl.formatMessage({ ...messages.details })}`,
+                title: `Understanding the relationships between SLO, SLI, and SRE 01`,
+                details: `Even after delivering a project to a client, the software engineer’s job is not complete. The next phase is ensuring service reliability. In site reliability...`,
                 subtitle: `${props.intl.formatMessage({ ...messages.BusinessIT })}`,
-                author: 'Mr Jon',
-                date: '23 May 2019',
+                author: 'Alireza Chegini',
+                date: 'Nov 15, 2021',
                 id: 1
             },
             {
                 image: image2,
-                title: `${props.intl.formatMessage({ ...messages.Loremipsumdolorsitametconsectetur })} 02`,
-                details: `${props.intl.formatMessage({ ...messages.details })}`,
-                subtitle: `${props.intl.formatMessage({ ...messages.CreativeSoft })}`,
-                author: 'Mr kaji',
-                date: '20 May 2019',
+                title: `Plutora Enhances VSM Platform with Release Insights 02`,
+                details: `Plutora has enhanced its value stream management (VSM) platform to provide dashboards that enable DevOps teams to better optimize application delivery. Jeff Keyes, vice president of product marketing and strategy for Plutora, ...`,
+                subtitle: `${props.intl.formatMessage({ ...messages.BusinessIT })}`,
+                author: 'Mike Vizard',
+                date: ' Nov 16, 2021',
                 id: 2
             },
             {
                 image: image3,
-                title: `${props.intl.formatMessage({ ...messages.Loremipsumdolorsitametconsectetur })} 03`,
-                details: `${props.intl.formatMessage({ ...messages.details })}`,
+                title: `16 Software Development Trends That Will Soon Dominate The Tech Industry 03`,
+                details: `Every tech professional knows the importance of staying on top of the latest industry trends. From DevSecOps to low-code apps, software development trends change as fast as technology itself. To stay current, you not only need to consider the present state of technology, but you must also look ahead.`,
                 subtitle: `${props.intl.formatMessage({ ...messages.Creativepark })}`,
-                author: 'Jone doe',
-                date: '05 Jan 2019',
+                author: 'Forbes Technology',
+                date: 'Jan 05, 2021',
                 id: 3
             },
         ]
